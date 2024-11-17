@@ -1,0 +1,16 @@
+services:
+  dst:
+    container_name: dst
+    build:
+      context: .
+      platforms:
+        - linux/arm64
+    platform: linux/arm64
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - DATA_PATH=/home/steam/dst-data
+      - CPU_MHZ=2400
+    volumes:
+      - ./server-data:/home/steam/dst-data:rw
+    restart: unless-stopped
