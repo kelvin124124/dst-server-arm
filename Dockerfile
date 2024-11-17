@@ -18,7 +18,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     BOX86_DYNAREC_BIGBLOCK=1 \
     BOX86_DYNAREC_FASTNAN=1 \
     BOX64_DYNAREC_BIGBLOCK=1 \
-    BOX64_DYNAREC_FASTNAN=1 \
+    BOX64_DYNAREC_FASTNAN=1
 
 # Install all dependencies
 RUN dpkg --add-architecture amd64 && \
