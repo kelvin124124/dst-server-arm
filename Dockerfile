@@ -15,19 +15,10 @@ ENV DEBIAN_FRONTEND=noninteractive \
     BOX64_LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu" \
     BOX86_LD_LIBRARY_PATH="/usr/lib/i386-linux-gnu:/lib/i386-linux-gnu" \
     # Box86/64 Optimizations
-    BOX86_NOBANNER=1 \
     BOX86_DYNAREC_BIGBLOCK=1 \
     BOX86_DYNAREC_FASTNAN=1 \
-    BOX86_NOPULSE=1 \
-    BOX86_NOGTK=1 \
-    BOX86_JITGDB=0 \
-    BOX64_NOBANNER=1 \
     BOX64_DYNAREC_BIGBLOCK=1 \
     BOX64_DYNAREC_FASTNAN=1 \
-    BOX64_NOPULSE=1 \
-    BOX64_NOGTK=1 \
-    BOX64_JITGDB=0 \
-    BOX64_MALLOC_HACK=1
 
 # Install all dependencies
 RUN dpkg --add-architecture amd64 && \
