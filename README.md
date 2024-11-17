@@ -1,10 +1,3 @@
-#### Status
-
-- [ ] Build
-- [ ] Run
-- [ ] Game
-- [ ] Optimize
-
 #### Setup guide
 1. Visit the [Klei Accounts site](https://accounts.klei.com) and log in to your account.
 2. On the accounts page, visit the "GAMES" tab, then scroll down to Don’t Starve Together and click on the "Game Servers" button.
