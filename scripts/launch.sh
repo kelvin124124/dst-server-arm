@@ -10,7 +10,7 @@ cd "${STEAMAPPDIR}/bin64"
 log "Current working directory: $(pwd)"
 
 # Setup params
-params="-cluster MyDediServer -persistent_storage_root ${STEAMAPPDIR}/.klei -tick 30"
+params="-cluster MyDediServer -persistent_storage_root ${STEAMAPPDIR}/.klei"
 
 # Launch the server
 log "Starting DST dedicated server..."
